@@ -30,9 +30,6 @@ function About() {
         for all users.
       </p>
 
-
-      {/* Service Cards */}
-
       <div className="about-cards">
 
         <div className="card">
@@ -61,8 +58,6 @@ function About() {
 
       </div>
 
-
-      {/* Extra Section */}
 
       <div className="about-extra">
 

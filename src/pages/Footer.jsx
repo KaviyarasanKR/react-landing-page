@@ -6,7 +6,6 @@ function Footer() {
 
       <div className="footer-container">
 
-        {/* Column 1 */}
         <div className="footer-col">
           <h2 className="logo">GO<span>TAXI</span></h2>
 
@@ -23,7 +22,6 @@ function Footer() {
           </div>
         </div>
 
-        {/* Column 2 */}
         <div className="footer-col">
           <h3>Quick Links</h3>
           <ul>
@@ -33,7 +31,6 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Column 3 */}
         <div className="footer-col">
           <h3>Our Services</h3>
           <ul>
@@ -43,8 +40,6 @@ function Footer() {
             <li>Corporate Travel</li>
           </ul>
         </div>
-
-        {/* Column 4 */}
         <div className="footer-col">
           <h3>Contact Us</h3>
 
@@ -66,8 +61,6 @@ function Footer() {
         </div>
 
       </div>
-
-      {/* Bottom Footer */}
 
       <div className="footer-bottom">
 
