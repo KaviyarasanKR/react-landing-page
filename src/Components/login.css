@@ -1,0 +1,83 @@
+.login-wrapper{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:linear-gradient(180deg,#ffffff,#f1f5f9);
+  padding:40px;
+}
+
+.login-form{
+  width:800px;
+  background:#ffffff;
+  padding:40px;
+  border-radius:20px;
+  color:#0f172a;
+  box-shadow:0 8px 25px rgba(0,0,0,0.08);
+}
+
+.row{
+  display:flex;
+  gap:20px;
+}
+
+.input-group{
+  display:flex;
+  flex-direction:column;
+  margin-bottom:20px;
+  width:100%;
+}
+
+.input-group label{
+  font-size:12px;
+  letter-spacing:1px;
+  margin-bottom:8px;
+  color:#475569;
+}
+
+.input-group input,
+.input-group select,
+.input-group textarea{
+  padding:14px;
+  border-radius:30px;
+  border:1px solid #cbd5e1;
+  background:#ffffff;
+  color:#0f172a;
+  outline:none;
+}
+
+textarea{
+  border-radius:20px;
+  min-height:100px;
+}
+
+.radio-group{
+  margin-bottom:20px;
+}
+
+.radio-options{
+  display:flex;
+  gap:25px;
+  margin-top:10px;
+}
+
+.radio-options label{
+  font-size:14px;
+  color:#334155;
+}
+
+.submit-btn{
+  width:100%;
+  margin-top:20px;
+  padding:16px;
+  border:none;
+  border-radius:40px;
+  font-size:18px;
+  color:white;
+  cursor:pointer;
+  background:#0f172a;
+}
+
+.submit-btn:hover{
+  background:#020617;
+}

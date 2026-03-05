@@ -1,0 +1,101 @@
+.page{
+  padding:60px 20px;
+  max-width:1100px;
+  margin:auto;
+  text-align:center;
+}
+.page h1{
+  font-size:36px;
+  margin-bottom:25px;
+  color:#0f172a;
+}
+
+.page p{
+  font-size:17px;
+  line-height:1.7;
+  color:#475569;
+  margin-bottom:18px;
+  max-width:800px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+/* Cards Section */
+
+.about-cards{
+  margin-top:50px;
+  display:flex;
+  justify-content:center;
+  gap:25px;
+  flex-wrap:wrap;
+}
+.card{
+  width:280px;
+  background:#ffffff;
+  padding:25px;
+  border-radius:12px;
+  box-shadow:0 6px 18px rgba(0,0,0,0.08);
+  transition:transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 10px 24px rgba(0,0,0,0.12);
+}
+
+.card h3{
+  font-size:20px;
+  margin-bottom:12px;
+  color:#0f172a;
+}
+
+/* Card text */
+
+.card p{
+  font-size:15px;
+  color:#64748b;
+  line-height:1.6;
+}
+
+
+/* Extra Section */
+
+.about-extra{
+  margin-top:60px;
+  padding:30px;
+  background:#f8fafc;
+  border-radius:12px;
+}
+
+.about-extra h2{
+  font-size:26px;
+  margin-bottom:15px;
+  color:#0f172a;
+}
+
+.about-extra p{
+  font-size:16px;
+  line-height:1.7;
+  color:#475569;
+}
+
+
+/* Responsive */
+
+@media (max-width:768px){
+
+  .page h1{
+    font-size:30px;
+  }
+
+  .about-cards{
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .card{
+    width:90%;
+  }
+
+}
